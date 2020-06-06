@@ -56,6 +56,7 @@ def newEntry(aFile):
     now = datetime.now()
     timeString = now.strftime("%H:%M:%S")
 
+    #gets userinput to append to file
     aFile.write("\n\n" + timeString)
     print("Start Writing Your Entry. Press Enter When Done\n")
     userIn = input()
@@ -64,7 +65,7 @@ def newEntry(aFile):
     print("\nEntry added!\n")
 
 def existingEntry(openedFile):
-
+    
     print("Start Writing Your Entry. Press Enter When Done\n")
     userIn = input()
     openedFile.write("\n" + userIn)
