@@ -5,5 +5,5 @@ What this program does:
 - Time stamps all new entires for a given day
 
 What can be added: 
-- Graphic Interface (have to learn how 2 do that first)
+- Graphic Interface 
 
